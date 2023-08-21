@@ -21,7 +21,9 @@ The debugger configuration should include as below:
 The external loader MT25TL01G_STM32H750B-DISCO.stldr and it is necessary to position the SP and the PC manually due to the absence of the debugger code.
 
 set *0xE000ED08 = 0x08000000
+
 set $sp = *(unsigned int*)0x08000000
+
 set $pc = *(unsigned int*)0x08000004
 
 ![STM32H750B-DK Debugger config external flash loader!](/img/Debug_config.PNG "")

@@ -1,4 +1,4 @@
-# STM32H750B-DK with LVGL 8.3.0 demo example port.
+# STM32H750B-DK with LVGL 8.3.0 demo example.
 
 ![STM32H750B-DK Lvgl 8.3.0!](/img/stm32h750bdk_demo.jpg "")
 
